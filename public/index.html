@@ -464,15 +464,15 @@ footer {
   <div class="wrap">
     <header class="hero">
       <p class="eyebrow">personallog.ai</p>
-      <h1>A personal agent should remember, not just respond.</h1>
-      <p class="subhead">personallog-agent is a thin PLATO domain agent for personal notes and queries: write a tile, ask about it later, let patterns accumulate over time.</p>
+      <h1><code>personallog-agent</code> — a thin PLATO domain agent for personal notes</h1>
+      <p class="subhead"><code>personallog-agent</code> is a Python package (PyPI) that writes a personal note as a tile to PLATO and lets a later session query it back, so an agent does not start every conversation from an empty context window.</p>
     </header>
 
     <section id="what">
       <h2>What This Is</h2>
-      <p>The idea is simple: you tell an agent something, and a month later a different instance of that agent—or a completely different one—can still know what you said. That persistence is harder than it sounds because most agent sessions start with an empty context window. They do not remember; they infer from whatever you paste in.</p>
-<p><strong>personallog-agent</strong> is the smallest honest version of that idea. It installs a PLATO domain agent for personallog.ai. PLATO stores each entry as a tile, so a later session can query the history instead of asking you to retype it.</p>
-<p>This package is intentionally minimal. The published README is two lines long. We are not going to invent features here to make the page look fuller. If you want a general-purpose personal memory layer for agents, this is the starting point.</p>
+      <p>Most agent sessions start with an empty context window — they do not remember what was told to a different instance last month; they infer from whatever is pasted in.</p>
+<p><strong>personallog-agent</strong> installs a PLATO domain agent for personallog.ai. PLATO stores each entry as a tile, so a later session can query the history instead of starting over.</p>
+<p>This package is intentionally minimal. The published README is two lines long and its <code>Usage</code> section is empty. There is no documented API example yet; the banner above calls it a <strong>THIN SEED</strong>, and that framing is accurate.</p>
     </section>
 
     <section id="quickstart">

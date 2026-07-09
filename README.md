@@ -14,12 +14,12 @@ This repo is just the billboard that points at it.
 If you arrived here expecting agent/memory code, you want the `-agent` package,
 not this repo.
 
-## What problem does the *advertised* package aim at?
+## What the *advertised* package aims at
 
 Most agent sessions start with an empty context window — they don't remember
-what you told a different instance last month. `personallog-agent` is the
-smallest honest stab at that: write a note as a PLATO "tile", query it back
-later. (See "Honesty markers" below — the package is a deliberate stub.)
+what you told a different instance last month. `personallog-agent` is a minimal
+stab at that: write a note as a PLATO "tile", query it back later. (See "Honesty
+markers" below — the package is a deliberate stub.)
 
 ## Repository layout
 
@@ -72,8 +72,8 @@ Wrangler itself.
 
 ## Honesty markers (verified, not assumed)
 
-The org's discipline is that docs must not oversell code. Everything below was
-traced against real artifacts, not copied from existing copy.
+Each claim below was traced against the published PyPI metadata or the upstream
+GitHub README, not assumed from sibling repos.
 
 About **this repo** (the landing page Worker):
 
